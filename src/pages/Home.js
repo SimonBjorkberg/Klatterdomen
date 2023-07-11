@@ -24,7 +24,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <h1 className="mt-10 text-4xl font-bold">
+      <h1 className="py-16 text-4xl font-bold bg-base-200">
         Detta har vi att erbjuda
       </h1>
       <section className="flex flex-col xl:flex-row justify-between mx-auto 2xl:w-[80%] my-10">

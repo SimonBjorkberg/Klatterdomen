@@ -1,7 +1,7 @@
 const Courses = () => {
     return ( 
         <div className="courses pt-[80px]">
-            Courses
+            Kurser
         </div>
      );
 }
