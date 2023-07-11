@@ -19,9 +19,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/" component={Home}/>
             <Route exact path="/om-oss">
               <About />
             </Route>
@@ -34,9 +32,7 @@ function App() {
             <Route exact path="/sommarlov">
               <Sommarlov />
             </Route>
-            <Route exact path="/barn&ungdom">
-              <YouthGroups />
-            </Route>
+            <Route exact path="/barn&ungdom" component={YouthGroups} />
             <Route exact path="/priser">
               <Prices />
             </Route>
