@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="fixed mx-auto w-full bg-white z-10 shadow-md">
       <div className="navbar justify-between md2:w-[800px] mx-auto">
         <div>
-          <Link to='/'>
+          <Link to="/">
             <img
               src="https://www.klatterdomen.se/public/generate/collage_object.php?id=10625904&h=942a2cb74d8017610292cbfe5d3a3471"
               alt="LOGO"
@@ -40,42 +40,42 @@ const Navbar = () => {
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
               <ul className="menu p-4 w-60 h-full bg-base-200">
                 <li>
-                <Link to='/sommarlov'>Sommarlovsklättring</Link>
+                  <Link to="/sommarlov">Sommarlovsklättring</Link>
                 </li>
                 <li>
-                <Link to='/barn&ungdom'>Barn & Ungdomsgrupper</Link>
+                  <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
                 </li>
                 <li>
-                  <a href="/priser">Priser</a>
+                  <Link to="/priser">Priser</Link>
                 </li>
                 <li>
-                  <a href="/prova-på">Prova på</a>
+                  <Link to="/prova-på">Prova på</Link>
                 </li>
                 <li>
-                  <a href="/kurser">Kurser</a>
+                  <Link to="/kurser">Kurser</Link>
                 </li>
               </ul>
             </div>
           </div>
           <ul className="menu menu-horizontal px-1 text-lg hidden md2:flex md2:flex-row">
             <li>
-              <a href="/sommarlov">Sommarlovsklättring</a>
+              <Link to="/sommarlov">Sommarlovsklättring</Link>
             </li>
             <li>
-              <a href="/barn&ungdom">Barn & Ungdomsgrupper</a>
+              <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
             </li>
             <li>
-              <a href="/priser">Priser</a>
+              <Link to="/priser">Priser</Link>
             </li>
             <li>
               <details>
                 <summary>Klättring</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a href="/prova-på">Prova på</a>
+                    <Link to="/prova-på">Prova på</Link>
                   </li>
                   <li>
-                    <a href="/kurser">Kurser</a>
+                    <Link to="/kurser">Kurser</Link>
                   </li>
                 </ul>
               </details>

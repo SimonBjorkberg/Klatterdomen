@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Jobs from "./pages/Jobs"
 import Sommarlov from "./pages/Sommarlovsklattring"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import YouthGroups from "./pages/YouthGroups";
 import Prices from "./pages/Prices";
 import Courses from "./pages/Courses";
@@ -18,31 +18,17 @@ function App() {
       <div className="App flex flex-col min-h-screen">
         <Navbar />
         <div className="content">
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/om-oss">
-              <About />
-            </Route>
-            <Route exact path="/kontakt">
-              <Contact />
-            </Route>
-            <Route exact path="/jobb">
-              <Jobs />
-            </Route>
-            <Route exact path="/sommarlov">
-              <Sommarlov />
-            </Route>
-            <Route exact path="/barn&ungdom" component={YouthGroups} />
-            <Route exact path="/priser">
-              <Prices />
-            </Route>
-            <Route exact path="/kurser">
-              <Courses />
-            </Route>
-            <Route exact path="/prova-på">
-              <ProvaPa />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/om-oss" element={<About />} />
+            <Route path="/kontakt" element={<Contact />} />
+            <Route path="/jobb" element={<Jobs />} />
+            <Route path="/sommarlov" element={<Sommarlov />} />
+            <Route path="/barn&ungdom" element={<YouthGroups />} />
+            <Route path="/priser" element={<Prices />} />
+            <Route path="/kurser" element={<Courses />} />
+            <Route path="/prova-på" element={<ProvaPa />} />
+          </Routes>
         </div>
         <Footer />
       </div>
