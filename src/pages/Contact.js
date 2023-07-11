@@ -1,11 +1,12 @@
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="hero pt-28">
+      <div className="hero pt-24">
         <div className="hero-content text-center">
           <div className="w-[800px]">
             <h1 className="text-5xl font-bold">Kontakt</h1>
-            <p className="pt-10 pb-5">
+            <p>klatterdomengbg@gmail.com</p>
+            <p className="pt-5 pb-5">
               <span className="font-bold text-2xl">Ta sig hit</span> <br />
             </p>
             <div className="text-left w-1/2 mx-auto bg-base-200 p-4 rounded-xl">

@@ -1,5 +1,11 @@
 const About = () => {
-  return <div className="pt-[76px] about">About</div>;
+  return (
+  <div className="pt-[80px] about">About
+    <section>
+
+    </section>
+  </div>
+  )
 };
 
 export default About;

@@ -13,6 +13,7 @@ const Jobs = () => {
           passa in i vårt team på Klätterdomen.
             </p>
             <a href="mailto:klatterdomengbg@gmail.com" className="btn btn-neutral">Maila oss</a>
+            <p className="font-bold mt-1">klatterdomengbg@gmail.com</p>
           </div>
         </div>
       </div>
