@@ -27,8 +27,8 @@ const Home = () => {
       <h1 className="py-16 text-4xl font-bold bg-base-200">
         Detta har vi att erbjuda
       </h1>
-      <section className="flex flex-col xl:flex-row justify-between mx-auto 2xl:w-[80%] my-10">
-        <div className="card w-96 bg-base-100 border mx-auto mb-10 xl:mb-0 rounded-md">
+      <section className="flex flex-col xl:flex-row justify-between mx-auto xl:w-[1270px] my-10">
+        <div className="card w-96 bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md">
           <figure>
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/76109924-7GhEM.jpg"
@@ -46,7 +46,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 border mx-auto mb-10 xl:mb-0 rounded-md">
+        <div className="card w-96 bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md">
           <figure>
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/84519226-DqDK5.jpg"
@@ -63,7 +63,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 border mx-auto rounded-md">
+        <div className="card w-96 bg-base-100 mx-auto rounded-md shadow-md">
           <figure>
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/84517785-MRdm7.jpg"
