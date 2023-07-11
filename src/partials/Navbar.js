@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="fixed mx-auto w-full bg-white z-10 shadow-md">
       <div className="navbar justify-between md2:w-[800px] mx-auto">
         <div>
-          <a href="/">
+          <Link to='/'>
             <img
               src="https://www.klatterdomen.se/public/generate/collage_object.php?id=10625904&h=942a2cb74d8017610292cbfe5d3a3471"
               alt="LOGO"
               className="w-14"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex-none">
           <div className="drawer drawer-end md2:hidden">
@@ -38,10 +40,10 @@ const Navbar = () => {
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
               <ul className="menu p-4 w-60 h-full bg-base-200">
                 <li>
-                  <a href="/sommarlov">Sommarlovsklättring</a>
+                <Link to='/sommarlov'>Sommarlovsklättring</Link>
                 </li>
                 <li>
-                  <a href="/barn&ungdom">Barn & Ungdomsgrupper</a>
+                <Link to='/barn&ungdom'>Barn & Ungdomsgrupper</Link>
                 </li>
                 <li>
                   <a href="/priser">Priser</a>
