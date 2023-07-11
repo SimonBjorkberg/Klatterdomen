@@ -1,6 +1,6 @@
 const Sommarlov = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex justify-center items-center pt-[100px] 2xl:pt-0">
+    <div className="bg-gray-100 min-h-screen flex justify-center items-center pt-[100px] pb-10">
       <div className="max-w-lg p-8 bg-white rounded-lg shadow-lg text-left">
         <h1 className="text-2xl font-bold mb-4">
           Sommarklättring för Barn & Ungdommar

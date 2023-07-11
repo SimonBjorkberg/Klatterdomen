@@ -11,6 +11,7 @@ import YouthGroups from "./pages/YouthGroups";
 import Prices from "./pages/Prices";
 import Courses from "./pages/Courses";
 import ProvaPa from "./pages/ProvaPa";
+import Shop from "./pages/Shop";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/priser" element={<Prices />} />
             <Route path="/kurser" element={<Courses />} />
             <Route path="/prova-på" element={<ProvaPa />} />
+            <Route path="/butik" element={<Shop />} />
           </Routes>
         </div>
         <Footer />

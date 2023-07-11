@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="fixed mx-auto w-full bg-white z-10 shadow-md">
-      <div className="navbar justify-between md2:w-[800px] mx-auto">
+      <div className="navbar justify-between md2:w-full mx-auto">
         <div>
           <Link to="/">
             <img
@@ -38,21 +38,36 @@ const Navbar = () => {
             </div>
             <div className="drawer-side">
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-60 h-full bg-base-200">
-                <li className="font-bold">
-                  <Link to="/sommarlov" className="py-5">Sommarlovsklättring</Link>
+              <ul className="menu p-4 w-78 h-full bg-base-200">
+                <li>
+                  <Link to="/sommarlov" className="py-5 text-xl">
+                    Sommarlovsklättring
+                  </Link>
                 </li>
-                <li className="font-bold">
-                  <Link to="/barn&ungdom" className="py-5">Barn & Ungdomsgrupper</Link>
+                <li>
+                  <Link to="/prova-på" className="py-5 text-xl">
+                    Prova på
+                  </Link>
                 </li>
-                <li className="font-bold">
-                  <Link to="/priser" className="py-5">Priser</Link>
+                <li>
+                  <Link to="/kurser" className="py-5 text-xl">
+                    Kurser
+                  </Link>
                 </li>
-                <li className="font-bold">
-                  <Link to="/prova-på" className="py-5">Prova på</Link>
+                <li>
+                  <Link to="/barn&ungdom" className="py-5 text-xl">
+                    Barn & Ungdomsgrupper
+                  </Link>
                 </li>
-                <li className="font-bold">
-                  <Link to="/kurser" className="py-5">Kurser</Link>
+                <li>
+                  <Link to="/priser" className="py-5 text-xl">
+                    Priser
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/medlemskap" className="py-5 text-xl">
+                    Medlemskap
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -62,20 +77,30 @@ const Navbar = () => {
               <Link to="/sommarlov">Sommarlovsklättring</Link>
             </li>
             <li className="mr-2">
-              <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
-            </li>
-            <li className="mr-2">
-              <Link to="/priser">Priser</Link>
-            </li>
-            <li>
               <details>
                 <summary>Klättring</summary>
-                <ul className="p-2 bg-base-100">
-                  <li>
+                <ul className="menu p-2 bg-base-200 rounded-md">
+                  <li className="mb-2">
                     <Link to="/prova-på">Prova på</Link>
                   </li>
                   <li>
                     <Link to="/kurser">Kurser</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li className="mr-2">
+              <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
+            </li>
+            <li className="mr-8">
+              <details>
+                <summary>Priser</summary>
+                <ul className="menu p-2 bg-base-200 rounded-md">
+                  <li className="mb-2">
+                    <Link to="/butik">Butik</Link>
+                  </li>
+                  <li>
+                    <Link to="/">Medlemskap</Link>
                   </li>
                 </ul>
               </details>

@@ -1,8 +1,8 @@
 const Home = () => {
   return (
-    <div className="home mx-auto">
+    <div className="home mx-auto bg-base-200 pb-5">
       <div
-        className="hero min-h-screen shadow-xl"
+        className="hero min-h-screen"
         style={{
           backgroundImage:
             "url(https://walltopia.com/wp-content/uploads/2021/07/Overvaningen-5.jpg)",
@@ -15,81 +15,16 @@ const Home = () => {
               Välkommen till Klätterdomen
             </h1>
             <p className="text-lg mx-auto max-w-md">
-              Göteborgs <span className="font-bold text-success">Största</span> Klättergym.
-              Här kan du prova på för första gången med instruktör, gå{" "}
-              <span className="font-bold text-success">säkringskurser</span> och{" "}
-              <span className="font-bold text-success">teknikkurser</span>, ta en fika i
-              cafét, köpa klätterutrustning och mycket mer!
+              Göteborgs <span className="font-bold text-success">Största</span>{" "}
+              Klättergym. Här kan du prova på för första gången med instruktör,
+              gå <span className="font-bold text-success">säkringskurser</span>{" "}
+              och <span className="font-bold text-success">teknikkurser</span>,
+              ta en fika i cafét, köpa klätterutrustning och mycket mer!
             </p>
           </div>
         </div>
       </div>
-      <h1 className="py-16 text-4xl font-bold bg-base-200">
-        Detta har vi att erbjuda
-      </h1>
-      <section className="flex flex-col xl:flex-row justify-between mx-auto xl:w-[1270px] my-10">
-        <div className="card w-96 bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md">
-          <figure>
-            <img
-              src="https://dst15js82dk7j.cloudfront.net/256604/76109924-7GhEM.jpg"
-              alt="test"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title font-bold text-success">Väggar</h2>
-            <p className="text-left">
-              På Klätterdomen har vi väggar för topprepsklättring, ledklättring
-              och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
-              ledgrotta på väggar som är mellan 11 - 14.5 meter höga. Vertikalt,
-              Sva, Överhäng, Sprickor, Stalaktiter, Struktur, Drytooling, 2 st
-              Pelare varav ena är en kopia från en utomhusklippa.
-            </p>
-          </div>
-        </div>
-        <div className="card w-96 bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md">
-          <figure>
-            <img
-              src="https://dst15js82dk7j.cloudfront.net/256604/84519226-DqDK5.jpg"
-              alt="test"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title text-success font-bold text-left">Kaosvägg, Tensionboard & Kilterboard</h2>
-            <p className="text-left">
-              Kaosväggen är en bouldervägg fullsmackad med grepp. Perfekt för
-              att bygga egna problem och cirklar! Tensionboarden & Kilterboarden
-              är två ledbelysta träningsväggar, båda är kopplade till varsin app
-              med boulderproblem!
-            </p>
-          </div>
-        </div>
-        <div className="card w-96 bg-base-100 mx-auto rounded-md shadow-md">
-          <figure>
-            <img
-              src="https://dst15js82dk7j.cloudfront.net/256604/84517785-MRdm7.jpg"
-              alt="test"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title font-bold text-success">Gym</h2>
-            <p className="text-left">
-              På övervåningen finns våran gymavdelning. Där finns bl.a:
-              latsmaskin, pullupstång i två olika höjder, campusboard,
-              campustege, flera varianter av fingerboards, roddmaskiner, ringar,
-              bänkpress, hantlar, skivstänger, pegboard.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="mb-10">
-      <iframe className="mx-auto rounded-md border-2 border-neutral-700 shadow-md w-[90%] h-[300px] md2:w-[800px] md2:h-[380px]"
-              title="Shoes"
-              src="https://www.youtube.com/embed/g1G2Dydo34o"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-      </section>
-      <section className="bg-white rounded-b-md">
+      <section className="bg-white rounded-b-md mt-5">
         <div className="hero bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
@@ -104,7 +39,6 @@ const Home = () => {
                 onClick={() => window.oppettider.showModal()}
               >
                 Avvikande öppettider
-
               </button>
               <dialog id="oppettider" className="modal">
                 <form method="dialog" className="modal-box">
@@ -149,6 +83,75 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <h1 className="pb-5 pt-5 text-4xl font-bold bg-base-200">
+        Detta har vi att erbjuda
+      </h1>
+      
+      <section className="flex flex-col xl:flex-row justify-between mx-auto xl:w-[1270px] my-10">
+        <div className="card bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md w-2/3 xl:w-96">
+          <figure>
+            <img
+              src="https://dst15js82dk7j.cloudfront.net/256604/76109924-7GhEM.jpg"
+              alt="test"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title font-bold text-success">Väggar</h2>
+            <p className="text-left">
+              På Klätterdomen har vi väggar för topprepsklättring, ledklättring
+              och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
+              ledgrotta på väggar som är mellan 11 - 14.5 meter höga. Vertikalt,
+              Sva, Överhäng, Sprickor, Stalaktiter, Struktur, Drytooling, 2 st
+              Pelare varav ena är en kopia från en utomhusklippa.
+            </p>
+          </div>
+        </div>
+        <div className="card bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md w-2/3 xl:w-96">
+          <figure>
+            <img
+              src="https://dst15js82dk7j.cloudfront.net/256604/84519226-DqDK5.jpg"
+              alt="test"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title text-success font-bold text-left">
+              Kaosvägg, Tensionboard & Kilterboard
+            </h2>
+            <p className="text-left">
+              Kaosväggen är en bouldervägg fullsmackad med grepp. Perfekt för
+              att bygga egna problem och cirklar! Tensionboarden & Kilterboarden
+              är två ledbelysta träningsväggar, båda är kopplade till varsin app
+              med boulderproblem!
+            </p>
+          </div>
+        </div>
+        <div className="card bg-base-100 mx-auto rounded-md shadow-md w-2/3 xl:w-96">
+          <figure>
+            <img
+              src="https://dst15js82dk7j.cloudfront.net/256604/84517785-MRdm7.jpg"
+              alt="test"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title font-bold text-success">Gym</h2>
+            <p className="text-left">
+              På övervåningen finns våran gymavdelning. Där finns bl.a:
+              latsmaskin, pullupstång i två olika höjder, campusboard,
+              campustege, flera varianter av fingerboards, roddmaskiner, ringar,
+              bänkpress, hantlar, skivstänger, pegboard.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="mb-10">
+        <iframe
+          className="mx-auto rounded-md border-2 border-neutral-700 shadow-md w-[90%] h-[300px] md2:w-[800px] md2:h-[380px]"
+          title="Shoes"
+          src="https://www.youtube.com/embed/g1G2Dydo34o"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </section>
     </div>
   );
