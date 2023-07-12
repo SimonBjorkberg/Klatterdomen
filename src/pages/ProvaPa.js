@@ -2,7 +2,7 @@ const ProvaPa = () => {
   return (
     <div className="prova-pa min-h-screen bg-base-300">
       <div
-        className="hero min-h-[50vh]"
+        className="hero min-h-[60vh]"
         style={{
           backgroundImage:
             "url(https://h24-original.s3.amazonaws.com/256604/25111877-XVqor.jpg)",
@@ -50,7 +50,7 @@ const ProvaPa = () => {
         </div>
         <div
 
-          className="collapse collapse-arrow bg-neutral rounded-md w-[90%] max-w-[700px] mx-auto mt-3 shadow-md text-white focus:bg-white focus:text-neutral"
+          className="collapse collapse-arrow bg-neutral rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md text-white focus:bg-white focus:text-neutral"
         >
           <input type="checkbox" className="peer" />
           <div className="collapse-title text-left text-xl peer-checked:bg-white peer-checked:text-neutral">Prova på</div>
@@ -83,8 +83,8 @@ const ProvaPa = () => {
           <h1 className="text-5xl font-bold">Bokning</h1>
           <p className="text-xl text-left mb-3">Maila: Klatterdomengbg@gmail.com</p>
           <p className="text-xl text-left">
-            Vi behöver: <br /> Drop-in eller Prova på <br /> Antal personer{" "}
-         <br /> Gärna fler förslag på datum
+            Vi behöver: <br /> - Drop-in eller Prova på <br /> - Antal personer{" "}
+         <br /> - Gärna fler förslag på datum
           </p>
         </div>
       </section>

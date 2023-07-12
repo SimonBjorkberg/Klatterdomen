@@ -1,4 +1,5 @@
-import image from "../images/acti.png";
+import acti from "../images/acti.png";
+import arrowDown from '../images/arrow-down.png'
 
 const Shop = () => {
   return (
@@ -35,6 +36,7 @@ const Shop = () => {
             butiken. Vi har ett stort utbud av klätterutrustning från flera
             olika märken för både inomhus- och utomhusklättring.{" "}
           </p>
+          <img src={arrowDown} alt="Down" className='w-6 mx-auto mt-5'/>
         </div>
       </section>
       <section className="pb-5">
@@ -58,7 +60,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Uthyrning</p>
@@ -86,7 +88,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Medlemskap</p>
@@ -116,7 +118,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <img src={image} alt="KEK" className="mx-auto mt-5 w-52" />
+        <img src={acti} alt="Actiway/epassi" className="mx-auto mt-5 w-52" />
       </section>
     </div>
   );

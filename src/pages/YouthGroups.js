@@ -22,7 +22,7 @@ const YouthGroups = () => {
           </p>
         </div>
         <section className="pt-16">
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle-2" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle-2">
@@ -60,7 +60,7 @@ const YouthGroups = () => {
             </div>
           </div>
 
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
@@ -115,7 +115,7 @@ const YouthGroups = () => {
               </div>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
@@ -163,7 +163,7 @@ const YouthGroups = () => {
               </div>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
