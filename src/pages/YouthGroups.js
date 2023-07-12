@@ -112,7 +112,6 @@ const YouthGroups = () => {
                       Här
                     </Link>
                   </p>
-                  <p className="text-xl">klatterdomengbg@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -220,11 +219,17 @@ const YouthGroups = () => {
                   <span className="font-bold text-xl">Toppreps kurser:</span>{" "}
                   <br />
                   Klätterdomen anordnar rabatterade grundkurstillfällen för de
-                  som ska ta topprepskort för att säkra i
-                  ungdomsgrupperna. Grundkursen är uppdelad i två delar, två
-                  timmar per del. Vill man ta topprepskortet via Klätterdomens
-                  kurser är det viktigt att man anmäler den som vill gå. Anmälan
-                  kan man göra i samband med att man anmäler sitt barn. <br />
+                  som ska ta topprepskort för att säkra i ungdomsgrupperna.
+                  Grundkursen är uppdelad i två delar, två timmar per del. Vill
+                  man ta topprepskortet via Klätterdomens kurser är det viktigt
+                  att man anmäler den som vill gå. Anmälan kan man göra i
+                  samband med att man anmäler sitt barn. <br />
+                </p>
+                <p className="mt-3">
+                  Mer info ang. kurser kan du hitta{" "}
+                  <Link to="/kurser" className="text-blue-600">
+                    Här
+                  </Link>
                 </p>
               </div>
             </div>

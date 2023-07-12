@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Footer from "./partials/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Jobs from "./pages/Jobs"
+import Jobs from "./pages/Jobs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import YouthGroups from "./pages/YouthGroups";
 import Courses from "./pages/Courses";

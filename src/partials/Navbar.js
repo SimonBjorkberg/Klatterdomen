@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import scrollToTop from "../ScrollToTop";
 
 const Navbar = () => {
   return (
     <nav className="fixed mx-auto w-full bg-white z-10 shadow-md">
       <div className="navbar justify-between md2:w-full mx-auto">
-        <div>
+        <div onClick={scrollToTop}>
           <Link to="/">
             <img
               src="https://www.klatterdomen.se/public/generate/collage_object.php?id=10625904&h=942a2cb74d8017610292cbfe5d3a3471"
@@ -40,27 +41,28 @@ const Navbar = () => {
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
               <ul className="menu p-4 w-52 h-full bg-base-200">
                 <li>
-                  <Link to="/" className="py-5 text-lg mb-1">
+                
+                  <Link to="/" className="py-5 text-lg mb-1" onClick={scrollToTop}>
                     Hem
                   </Link>
                 </li>
                 <li>
-                  <Link to="/prova-på" className="py-5 text-lg my-1">
+                  <Link to="/prova-på" className="py-5 text-lg my-1" onClick={scrollToTop}>
                     Prova på
                   </Link>
                 </li>
                 <li>
-                  <Link to="/kurser" className="py-5 text-lg my-1">
+                  <Link to="/kurser" className="py-5 text-lg my-1" onClick={scrollToTop}>
                     Kurser
                   </Link>
                 </li>
                 <li>
-                  <Link to="/barn&ungdom" className="py-5 text-lg my-1">
+                  <Link to="/barn&ungdom" className="py-5 text-lg my-1" onClick={scrollToTop}>
                     Barn & <br /> Ungdomsgrupper
                   </Link>
                 </li>
                 <li>
-                  <Link to="/butik" className="py-5 text-lg my-1">
+                  <Link to="/butik" className="py-5 text-lg my-1" onClick={scrollToTop}>
                     Priser
                   </Link>
                 </li>
@@ -73,18 +75,18 @@ const Navbar = () => {
                 <summary>Klättring</summary>
                 <ul className="menu p-2 bg-base-200 rounded-md">
                   <li className="mb-2">
-                    <Link to="/prova-på">Prova på</Link>
+                    <Link to="/prova-på" onClick={scrollToTop}>Prova på</Link>
                   </li>
                   <li>
-                    <Link to="/kurser">Kurser</Link>
+                    <Link to="/kurser" onClick={scrollToTop}>Kurser</Link>
                   </li>
                 </ul>
               </details>
             </li>
             <li className="mr-2">
-              <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
+              <Link to="/barn&ungdom" onClick={scrollToTop}>Barn & Ungdomsgrupper</Link>
             </li>
-            <li className="mr-2">
+            <li className="mr-2" onClick={scrollToTop}>
               <Link to="/butik">Priser</Link>
             </li>
           </ul>

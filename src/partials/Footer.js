@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
+import  scrollToTop from '../ScrollToTop'
 
 const Footer = () => {
   return (
     <footer className="footer footer-center p-5 text-base-content rounded mt-auto">
       <div className="grid grid-flow-col gap-4">
-        <Link to="/om-oss" className="link link-hover text-blue-500">
+        <Link to="/om-oss" className="link link-hover text-blue-500" onClick={scrollToTop}>
           Faq
         </Link>
-        <Link to="/kontakt" className="link link-hover text-blue-500">
+        <Link to="/kontakt" className="link link-hover text-blue-500" onClick={scrollToTop}>
           Kontakt
         </Link>
-        <Link to="/jobb" className="link link-hover text-blue-500">
+        <Link to="/jobb" className="link link-hover text-blue-500" onClick={scrollToTop}>
           Jobb
         </Link>
       </div>
