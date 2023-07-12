@@ -4,8 +4,8 @@ const YouthGroups = () => {
   return (
     <div className="bg-base-200 min-h-screen pb-5">
       <div className="youth-groups pt-[80px] w-[90%] md2:w-[800px] mx-auto">
-        <div className="mt-10">
-          <h1 className="text-4xl font-bold mb-4">Barn & Ungdomsgrupper</h1>
+        <div className="mt-16">
+          <h1 className="text-5xl mb-4">Barn & Ungdomsgrupper</h1>
           <p>
             Klätterdomens barn- & ungdomsklättring bedrivs på vår/höst termin.
             Grupper både för nybörjare och för de som klättrat ett tag och vill
@@ -22,7 +22,7 @@ const YouthGroups = () => {
           </p>
         </div>
         <section className="pt-16">
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[98%] max-w-[700px] mx-auto shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle-2" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle-2">
@@ -60,7 +60,7 @@ const YouthGroups = () => {
             </div>
           </div>
 
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[98%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
@@ -115,7 +115,7 @@ const YouthGroups = () => {
               </div>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[98%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
@@ -163,7 +163,7 @@ const YouthGroups = () => {
               </div>
             </div>
           </div>
-          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
+          <div className="collapse collapse-arrow bg-base-200 rounded-md w-[98%] max-w-[700px] mx-auto mt-2 shadow-md">
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label for="collapse-toggle" className="cursor-pointer">
