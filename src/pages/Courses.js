@@ -5,7 +5,7 @@ const Courses = () => {
   return (
     <div className="courses min-h-screen bg-base-300 flex justify-center items-center flex-col">
       <h1 className="text-3xl w-[90%] max-w-[700px] mt-32">
-        Här har vi kurs-information för dig som vill börja klättra/säkra på
+        Kurs-information för dig som vill börja klättra & säkra på
         repväggarna
       </h1>
       <img src={arrowDown} alt="Down" className="w-6 mb-8 mt-3" />
