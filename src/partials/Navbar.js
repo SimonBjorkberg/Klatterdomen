@@ -40,27 +40,27 @@ const Navbar = () => {
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
               <ul className="menu p-4 w-52 h-full bg-base-200">
                 <li>
-                  <Link to="/" className="py-5 text-lg">
+                  <Link to="/" className="py-5 text-lg mb-1">
                     Hem
                   </Link>
                 </li>
                 <li>
-                  <Link to="/prova-på" className="py-5 text-lg">
+                  <Link to="/prova-på" className="py-5 text-lg my-1">
                     Prova på
                   </Link>
                 </li>
                 <li>
-                  <Link to="/kurser" className="py-5 text-lg">
+                  <Link to="/kurser" className="py-5 text-lg my-1">
                     Kurser
                   </Link>
                 </li>
                 <li>
-                  <Link to="/barn&ungdom" className="py-5 text-lg">
+                  <Link to="/barn&ungdom" className="py-5 text-lg my-1">
                     Barn & <br /> Ungdomsgrupper
                   </Link>
                 </li>
                 <li>
-                  <Link to="/butik" className="py-5 text-lg">
+                  <Link to="/butik" className="py-5 text-lg my-1">
                     Priser
                   </Link>
                 </li>
