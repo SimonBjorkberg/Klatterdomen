@@ -85,7 +85,7 @@ const Home = () => {
         </div>
       </section>
       <h1 className="pt-5 pb-16 text-4xl font-bold bg-white">
-        Detta har vi att erbjuda
+        Vår anläggning
       </h1>
       
       <section className="flex flex-col clg:flex-row justify-between mx-auto clg:w-[1220px] my-10">

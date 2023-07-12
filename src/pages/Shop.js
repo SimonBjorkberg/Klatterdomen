@@ -40,10 +40,10 @@ const Shop = () => {
         </div>
         <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Entre</p>
           </div>
-          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <div>
               <h1 className="text-xl">Dagspass</h1>
               <p>140kr</p>
@@ -60,10 +60,10 @@ const Shop = () => {
         </div>
         <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Uthyrning</p>
           </div>
-          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <div>
               <h1 className="text-xl">Klätterskor</h1>
               <p>40kr</p>
@@ -88,10 +88,10 @@ const Shop = () => {
         </div>
         <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Medlemskap</p>
           </div>
-          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
+          <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <div>
               <h1 className="text-xl">Vuxen</h1>
               <p>10-klippkort - 1195kr</p>
