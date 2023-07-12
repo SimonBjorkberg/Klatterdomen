@@ -2,7 +2,7 @@ import image from "../images/acti.png";
 
 const Shop = () => {
   return (
-    <div className="shop min-h-screen bg-base-200">
+    <div className="shop min-h-screen bg-base-300">
       <section>
         <div
           className="hero min-h-[60vh]"
@@ -38,12 +38,12 @@ const Shop = () => {
             olika märken för både inomhus- och utomhusklättring.{" "}
           </p>
         </div>
-        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
             <p className="text-xl">Entre</p>
           </div>
-          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
             <div>
               <h1 className="text-xl">Dagspass</h1>
               <p>140kr</p>
@@ -58,12 +58,12 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
             <p className="text-xl">Uthyrning</p>
           </div>
-          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
             <div>
               <h1 className="text-xl">Klätterskor</h1>
               <p>40kr</p>
@@ -77,7 +77,7 @@ const Shop = () => {
               <p>10kr</p>
             </div>
             <div>
-              <h1 className="text-xl mt-3">Repbroms (GriGri, jul2)</h1>
+              <h1 className="text-xl mt-3">Repbroms (GriGri & jul2)</h1>
               <p>20kr</p>
             </div>
             <div>
@@ -86,12 +86,12 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-title bg-successDark text-left peer-checked:bg-success">
             <p className="text-xl">Medlemskap</p>
           </div>
-          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+          <div className="collapse-content bg-successDark text-left peer-checked:bg-success">
             <div>
               <h1 className="text-xl">Vuxen</h1>
               <p>10-klippkort - 1195kr</p>

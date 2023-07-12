@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="home mx-auto bg-base-200 pb-5">
+    <div className="home mx-auto bg-base-300 pb-5">
       <div
         className="hero min-h-screen"
         style={{

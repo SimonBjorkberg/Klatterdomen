@@ -72,7 +72,7 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          <ul className="menu menu-horizontal px-1 text-lg hidden md2:flex md2:flex-row">
+          <ul className="menu menu-horizontal px-1 text-[15px] hidden md2:flex md2:flex-row">
             <li className="mr-2">
               <Link to="/sommarlov">Sommarlovsklättring</Link>
             </li>
