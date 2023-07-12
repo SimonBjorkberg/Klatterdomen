@@ -38,7 +38,7 @@ const Shop = () => {
             olika märken för både inomhus- och utomhusklättring.{" "}
           </p>
         </div>
-        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-16 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Entre</p>
