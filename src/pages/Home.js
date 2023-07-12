@@ -24,8 +24,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="bg-white rounded-b-md mt-5">
-        <div className="hero bg-base-200">
+      <section className="bg-white rounded-b-md pb-5 pt-12">
+        <div className="hero">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-4xl font-bold">Öppettider</h1>
@@ -84,20 +84,20 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <h1 className="pb-5 pt-5 text-4xl font-bold bg-base-200">
+      <h1 className="pt-5 pb-16 text-4xl font-bold bg-white">
         Detta har vi att erbjuda
       </h1>
       
-      <section className="flex flex-col xl:flex-row justify-between mx-auto xl:w-[1270px] my-10">
-        <div className="card bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md w-2/3 xl:w-96">
-          <figure>
+      <section className="flex flex-col clg:flex-row justify-between mx-auto clg:w-[1220px] my-10">
+        <div className="card bg-base-100 mx-auto mb-10 clg:mb-0 rounded-md shadow-md w-[95%] clg:w-96 max-w-[830px]">
+          <figure className="w-full">
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/76109924-7GhEM.jpg"
               alt="test"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-success">Väggar</h2>
+            <h2 className="card-title font-bold text-primary">Väggar</h2>
             <p className="text-left">
               På Klätterdomen har vi väggar för topprepsklättring, ledklättring
               och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
@@ -107,7 +107,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 mx-auto mb-10 xl:mb-0 rounded-md shadow-md w-2/3 xl:w-96">
+        <div className="card bg-base-100 mx-auto mb-10 clg:mb-0 rounded-md shadow-md w-[95%] clg:w-96 max-w-[830px]">
           <figure>
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/84519226-DqDK5.jpg"
@@ -115,7 +115,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-success font-bold text-left">
+            <h2 className="card-title text-primary font-bold text-left">
               Kaosvägg, Tensionboard & Kilterboard
             </h2>
             <p className="text-left">
@@ -126,7 +126,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="card bg-base-100 mx-auto rounded-md shadow-md w-2/3 xl:w-96">
+        <div className="card bg-base-100 mx-auto clg:mb-0 rounded-md shadow-md w-[95%] clg:w-96 max-w-[830px]">
           <figure>
             <img
               src="https://dst15js82dk7j.cloudfront.net/256604/84517785-MRdm7.jpg"
@@ -134,7 +134,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-success">Gym</h2>
+            <h2 className="card-title font-bold text-primary">Gym</h2>
             <p className="text-left">
               På övervåningen finns våran gymavdelning. Där finns bl.a:
               latsmaskin, pullupstång i två olika höjder, campusboard,
@@ -144,9 +144,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="mb-10">
+      <section className="mb-5">
         <iframe
-          className="mx-auto rounded-md border-2 border-neutral-700 shadow-md w-[90%] h-[300px] md2:w-[800px] md2:h-[380px]"
+          className="mx-auto rounded-md shadow-md w-[95%] max-w-[830px] clg:h-[690px] h-[250px] md:h-[350px] clg:max-w-none clg:w-[1200px]"
           title="Shoes"
           src="https://www.youtube.com/embed/g1G2Dydo34o"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

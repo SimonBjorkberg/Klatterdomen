@@ -6,7 +6,7 @@ const Jobs = () => {
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Personal sökes</h1>
-            <p className="py-6">
+            <p className="py-10">
             <span className="text-xl font-bold">Vi söker extra personal</span> <br /> Viktigt att du som söker jobb på Klätterdomen
           brinner för service och vill ta hand om våra kunder på bästa sätt.
           Maila oss lite information om dig själv och varför just du skulle

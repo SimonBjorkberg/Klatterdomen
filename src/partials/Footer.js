@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-5 text-base-content rounded mt-auto">
       <div className="grid grid-flow-col gap-4">
-        <Link to="/om-oss" className="link link-hover">
-          Om oss
+        <Link to="/om-oss" className="link link-hover text-blue-500">
+          Faq
         </Link>
-        <Link to="/kontakt" className="link link-hover">
+        <Link to="/kontakt" className="link link-hover text-blue-500">
           Kontakt
         </Link>
-        <Link to="/jobb" className="link link-hover">
+        <Link to="/jobb" className="link link-hover text-blue-500">
           Jobb
         </Link>
       </div>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2023 - All right reserved by ***</p>
+        <p><span className="font-bold">Copyright © 2023</span> - All right reserved by <span className="font-bold">Klätterdomen</span></p>
       </div>
     </footer>
   );

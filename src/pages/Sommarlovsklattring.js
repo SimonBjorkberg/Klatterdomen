@@ -1,7 +1,7 @@
 const Sommarlov = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex justify-center items-center pt-[100px] pb-10">
-      <div className="max-w-lg p-8 bg-white rounded-lg shadow-lg text-left">
+    <div className="bg-base-200 min-h-screen flex justify-center items-center pt-[100px] pb-10">
+      <div className="max-w-4xl p-8 bg-white rounded-lg shadow-md text-left">
         <h1 className="text-2xl font-bold mb-4">
           Sommarklättring för Barn & Ungdommar
         </h1>

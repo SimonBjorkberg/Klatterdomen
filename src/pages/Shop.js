@@ -1,6 +1,8 @@
+import image from "../images/acti.png";
+
 const Shop = () => {
   return (
-    <div className="shop">
+    <div className="shop min-h-screen bg-base-200">
       <section>
         <div
           className="hero min-h-[60vh]"
@@ -26,6 +28,95 @@ const Shop = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className="pb-5">
+        <div className="py-10 bg-white">
+          <h1 className="text-4xl font-bold">Våra priser</h1>
+          <p className="max-w-[700px] w-[90%] mx-auto mt-3">
+            Alla som har ett träningskort på Klätterdomen får 10% rabatt i
+            butiken. Vi har ett stort utbud av klätterutrustning från flera
+            olika märken för både inomhus- och utomhusklättring.{" "}
+          </p>
+        </div>
+        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+          <input type="checkbox" className="peer" />
+          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <p className="text-xl">Entre</p>
+          </div>
+          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <div>
+              <h1 className="text-xl">Dagspass</h1>
+              <p>140kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Dagspass junior (under 16 år)</h1>
+              <p>80kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Dagspass barn (under 7 år)</h1>
+              <p>Gratis med betalande vuxen</p>
+            </div>
+          </div>
+        </div>
+        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+          <input type="checkbox" className="peer" />
+          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <p className="text-xl">Uthyrning</p>
+          </div>
+          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <div>
+              <h1 className="text-xl">Klätterskor</h1>
+              <p>40kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Sele</h1>
+              <p>20kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Kritpåse</h1>
+              <p>10kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Repbroms (GriGri, jul2)</h1>
+              <p>20kr</p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-3">Ledrep</h1>
+              <p>40kr</p>
+            </div>
+          </div>
+        </div>
+        <div className="collapse bg-base-200 rounded-md w-[90%] max-w-[700px] mx-auto mt-5">
+          <input type="checkbox" className="peer" />
+          <div className="collapse-title bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <p className="text-xl">Medlemskap</p>
+          </div>
+          <div className="collapse-content bg-primary text-white text-left peer-checked:bg-secondary peer-checked:text-white">
+            <div>
+              <h1 className="text-xl">Vuxen</h1>
+              <p>10-klippkort - 1195kr</p>
+              <p>25-klippkort - 2495kr</p>
+              <p>Halvårskort - 2600kr</p>
+              <p>Helårskort - 4350kr</p>
+              <p>
+                Autogiro - 360kr/månad / 3 månaders bindningstid, 1 månads
+                uppsägningstid
+              </p>
+            </div>
+            <div>
+              <h1 className="text-xl mt-5">Junior (under 16 år)</h1>
+              <p>10-klippkort - 700kr</p>
+              <p>25-klippkort - 1750kr</p>
+              <p>Halvårskort - 2100kr</p>
+              <p>Helårskort - 2990kr</p>
+              <p>
+                Autogiro - 250kr/månad / 3 månaders bindningstid, 1 månads
+                uppsägningstid
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src={image} alt="KEK" className="mx-auto mt-5 w-52" />
       </section>
     </div>
   );

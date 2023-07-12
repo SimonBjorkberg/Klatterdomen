@@ -92,18 +92,8 @@ const Navbar = () => {
             <li className="mr-2">
               <Link to="/barn&ungdom">Barn & Ungdomsgrupper</Link>
             </li>
-            <li className="mr-8">
-              <details>
-                <summary>Priser</summary>
-                <ul className="menu p-2 bg-base-200 rounded-md">
-                  <li className="mb-2">
-                    <Link to="/butik">Butik</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Medlemskap</Link>
-                  </li>
-                </ul>
-              </details>
+            <li className="mr-2">
+              <Link to="/butik">Priser</Link>
             </li>
           </ul>
         </div>

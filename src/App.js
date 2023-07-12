@@ -8,7 +8,6 @@ import Jobs from "./pages/Jobs"
 import Sommarlov from "./pages/Sommarlovsklattring"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import YouthGroups from "./pages/YouthGroups";
-import Prices from "./pages/Prices";
 import Courses from "./pages/Courses";
 import ProvaPa from "./pages/ProvaPa";
 import Shop from "./pages/Shop";
@@ -26,7 +25,6 @@ function App() {
             <Route path="/jobb" element={<Jobs />} />
             <Route path="/sommarlov" element={<Sommarlov />} />
             <Route path="/barn&ungdom" element={<YouthGroups />} />
-            <Route path="/priser" element={<Prices />} />
             <Route path="/kurser" element={<Courses />} />
             <Route path="/prova-på" element={<ProvaPa />} />
             <Route path="/butik" element={<Shop />} />

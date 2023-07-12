@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       screens: {
         md2: { raw: "(min-width: 850px)" },
+        clg: { raw: "(min-width: 1240px)"}
       },
     },
   },
