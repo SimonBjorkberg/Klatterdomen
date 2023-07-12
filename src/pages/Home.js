@@ -1,3 +1,5 @@
+import image from '../images/arrow-down.png'
+
 const Home = () => {
   return (
     <div className="home mx-auto bg-base-300 pb-5">
@@ -24,7 +26,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <section className="bg-white rounded-b-md pb-5 pt-12">
+      <section className="bg-white rounded-b-md pb-5 pt-5">
         <div className="hero">
           <div className="hero-content text-center">
             <div className="max-w-md">
@@ -84,9 +86,12 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <h1 className="pt-5 pb-16 text-4xl font-bold bg-white">
+      <div className="pb-8 text-4xl font-bold bg-white">
+      <h1>
         Vår anläggning
       </h1>
+      <img src={image} alt="Down" className='w-6 mx-auto mt-5'/>
+      </div>
       
       <section className="flex flex-col clg:flex-row justify-between mx-auto clg:w-[1220px] my-10">
         <div className="card bg-base-100 mx-auto mb-10 clg:mb-0 rounded-md shadow-md w-[95%] clg:w-96 max-w-[830px]">
@@ -97,7 +102,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-success">Väggar</h2>
+            <h2 className="card-title font-bold text-neutral">Väggar</h2>
             <p className="text-left">
               På Klätterdomen har vi väggar för topprepsklättring, ledklättring
               och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
@@ -115,7 +120,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-success font-bold text-left">
+            <h2 className="card-title text-neutral font-bold text-left">
               Kaosvägg, Tensionboard & Kilterboard
             </h2>
             <p className="text-left">
@@ -134,7 +139,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-success">Gym</h2>
+            <h2 className="card-title font-bold text-neutral">Gym</h2>
             <p className="text-left">
               På övervåningen finns våran gymavdelning. Där finns bl.a:
               latsmaskin, pullupstång i två olika höjder, campusboard,

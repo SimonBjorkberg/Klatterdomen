@@ -45,11 +45,6 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/sommarlov" className="py-5 text-xl">
-                    Sommarlovsklättring
-                  </Link>
-                </li>
-                <li>
                   <Link to="/prova-på" className="py-5 text-xl">
                     Prova på
                   </Link>
@@ -73,9 +68,6 @@ const Navbar = () => {
             </div>
           </div>
           <ul className="menu menu-horizontal px-1 text-[15px] hidden md2:flex md2:flex-row">
-            <li className="mr-2">
-              <Link to="/sommarlov">Sommarlovsklättring</Link>
-            </li>
             <li className="mr-2">
               <details>
                 <summary>Klättring</summary>

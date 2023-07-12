@@ -5,7 +5,6 @@ import Footer from "./partials/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Jobs from "./pages/Jobs"
-import Sommarlov from "./pages/Sommarlovsklattring"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import YouthGroups from "./pages/YouthGroups";
 import Courses from "./pages/Courses";
@@ -23,7 +22,6 @@ function App() {
             <Route path="/om-oss" element={<About />} />
             <Route path="/kontakt" element={<Contact />} />
             <Route path="/jobb" element={<Jobs />} />
-            <Route path="/sommarlov" element={<Sommarlov />} />
             <Route path="/barn&ungdom" element={<YouthGroups />} />
             <Route path="/kurser" element={<Courses />} />
             <Route path="/prova-på" element={<ProvaPa />} />

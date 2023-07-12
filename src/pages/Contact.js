@@ -3,13 +3,13 @@ const Contact = () => {
     <div className="contact min-h-screen bg-base-200">
       <div className="hero pt-24">
         <div className="hero-content text-center">
-          <div className="">
+          <div>
             <h1 className="text-5xl font-bold">Kontakt</h1>
             <p>klatterdomengbg@gmail.com</p>
             <p className="pt-5 pb-5">
               <span className="font-bold text-2xl">Ta sig hit</span> <br />
             </p>
-            <div className="text-left mx-auto bg-white p-4 rounded-xl">
+            <div className="text-left mx-auto bg-white p-4 rounded-lg">
               <h1 className="font-bold text-xl text-center">Kollektivt</h1>
               <div className="text-left mt-2">
                 <h1 className="font-bold">Från Centralen:</h1>
@@ -34,7 +34,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="text-left mx-auto mt-4 bg-white p-4 rounded-xl">
+            <div className="text-left mx-auto mt-4 bg-white p-4 rounded-lg">
               <h1 className="font-bold text-xl text-center">Med bil</h1>
               <div className="text-left mt-2">
                 <p>
