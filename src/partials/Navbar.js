@@ -40,6 +40,11 @@ const Navbar = () => {
               <label htmlFor="menu-drawer" className="drawer-overlay"></label>
               <ul className="menu p-4 w-78 h-full bg-base-200">
                 <li>
+                  <Link to="/" className="py-5 text-xl">
+                    Hem
+                  </Link>
+                </li>
+                <li>
                   <Link to="/sommarlov" className="py-5 text-xl">
                     Sommarlovsklättring
                   </Link>
@@ -60,13 +65,8 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/priser" className="py-5 text-xl">
+                  <Link to="/butik" className="py-5 text-xl">
                     Priser
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/medlemskap" className="py-5 text-xl">
-                    Medlemskap
                   </Link>
                 </li>
               </ul>
