@@ -151,7 +151,7 @@ const Home = () => {
       </section>
       <section className="mb-5">
         <iframe
-          className="mx-auto rounded-md shadow-md w-[95%] max-w-[830px] clg:h-[690px] h-[250px] md:h-[350px] clg:max-w-none clg:w-[1200px]"
+          className="mx-auto rounded-md shadow-md w-[95%] max-w-[830px] clg:h-[500px] h-[250px] md:h-[350px] clg:max-w-none clg:w-[1200px]"
           title="Shoes"
           src="https://www.youtube.com/embed/g1G2Dydo34o"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

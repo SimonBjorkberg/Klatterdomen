@@ -28,8 +28,6 @@ const Shop = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="pb-5">
         <div className="py-10 bg-white">
           <h1 className="text-4xl font-bold">Våra priser</h1>
           <p className="max-w-[700px] w-[90%] mx-auto mt-3">
@@ -38,7 +36,9 @@ const Shop = () => {
             olika märken för både inomhus- och utomhusklättring.{" "}
           </p>
         </div>
-        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-16 shadow-md">
+      </section>
+      <section className="pb-5">
+        <div className="collapse collapse-arrow rounded-md w-[90%] max-w-[700px] mx-auto mt-16 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Entre</p>
@@ -58,7 +58,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Uthyrning</p>
@@ -86,7 +86,7 @@ const Shop = () => {
             </div>
           </div>
         </div>
-        <div className="collapse bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
+        <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-5 shadow-md">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
             <p className="text-xl">Medlemskap</p>
