@@ -97,7 +97,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-primary">Väggar</h2>
+            <h2 className="card-title font-bold text-success">Väggar</h2>
             <p className="text-left">
               På Klätterdomen har vi väggar för topprepsklättring, ledklättring
               och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
@@ -115,7 +115,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title text-primary font-bold text-left">
+            <h2 className="card-title text-success font-bold text-left">
               Kaosvägg, Tensionboard & Kilterboard
             </h2>
             <p className="text-left">
@@ -134,7 +134,7 @@ const Home = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title font-bold text-primary">Gym</h2>
+            <h2 className="card-title font-bold text-success">Gym</h2>
             <p className="text-left">
               På övervåningen finns våran gymavdelning. Där finns bl.a:
               latsmaskin, pullupstång i två olika höjder, campusboard,
