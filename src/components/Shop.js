@@ -1,5 +1,4 @@
 import acti from "../images/acti.png";
-import arrowDown from '../images/arrow-down.png'
 
 const Shop = () => {
   return (
@@ -36,7 +35,6 @@ const Shop = () => {
             butiken. Vi har ett stort utbud av klätterutrustning från flera
             olika märken för både inomhus- och utomhusklättring.{" "}
           </p>
-          <img src={arrowDown} alt="Down" className='w-6 mx-auto mt-5'/>
         </div>
       </section>
       <section className="pb-5">

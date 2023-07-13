@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p><span className="font-bold">Copyright © 2023</span> - All right reserved by <span className="font-bold">Klätterdomen</span></p>
+        <p><span className="font-bold">Copyright © 2023</span> - All rights reserved by <span className="font-bold">Klätterdomen</span></p>
       </div>
     </footer>
   );

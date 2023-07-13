@@ -5,8 +5,7 @@ const Courses = () => {
   return (
     <div className="courses min-h-screen bg-base-300 flex justify-center items-center flex-col">
       <h1 className="text-3xl w-[90%] max-w-[700px] mt-32">
-        Kurs-information för dig som vill börja klättra & säkra på
-        repväggarna
+        Kurs-information för dig som vill börja klättra & säkra på repväggarna
       </h1>
       <img src={arrowDown} alt="Down" className="w-6 mb-8 mt-3" />
       <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
@@ -129,6 +128,41 @@ const Courses = () => {
       <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
         <input type="checkbox" className="peer" />
         <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
+          <p className="text-xl">Privat Tekinkkurs</p>
+        </div>
+        <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
+          <div>
+            <p>
+              Om du vill få tekniktips för att komma vidare i klättringen är 1,5
+              timmars kursen på ett tillfälle något för dig. <br />
+              Få tips och träningsövningar på det du behöver <br />
+              förbättra din klättring.
+            </p>
+          </div>
+          <div>
+            <p className="mt-2">
+              Pris: <br />
+              450 kr/deltagare + entré (minst 2 personer)
+            </p>
+            <p className="mt-2">
+              Krav: <br />
+              Topprepskort (& Gärna ledkort), minst 16 år
+            </p>
+            <p className="mt-2">
+              Utrustning: <br />
+              Ta med egen eller hyr på Klätterdomen
+            </p>
+            <p className="mt-2">
+              Privata teknikkursen bokas in via överenskommelse med instruktören
+              på onsdag kvällar, mån, tis, tors, fre förmiddag/tidig
+              eftermiddag.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
+        <input type="checkbox" className="peer" />
+        <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
           <p className="text-xl">Teknikkurs Del 1</p>
         </div>
         <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
@@ -215,41 +249,6 @@ const Courses = () => {
           </div>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
-        <input type="checkbox" className="peer" />
-        <div className="collapse-title bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
-          <p className="text-xl">Privat Tekinkkurs</p>
-        </div>
-        <div className="collapse-content bg-neutral text-white peer-checked:text-neutral text-left peer-checked:bg-white">
-          <div>
-            <p>
-              Om du vill få tekniktips för att komma vidare i klättringen är 1,5
-              timmars kursen på ett tillfälle något för dig. <br />
-              Få tips och träningsövningar på det du behöver <br />
-              förbättra din klättring.
-            </p>
-          </div>
-          <div>
-            <p className="mt-2">
-              Pris: <br />
-              450 kr/deltagare + entré (minst 2 personer)
-            </p>
-            <p className="mt-2">
-              Krav: <br />
-              Topprepskort (& Gärna ledkort), minst 16 år
-            </p>
-            <p className="mt-2">
-              Utrustning: <br />
-              Ta med egen eller hyr på Klätterdomen
-            </p>
-            <p className="mt-2">
-              Privata teknikkursen bokas in via överenskommelse med instruktören
-              på onsdag kvällar, mån, tis, tors, fre förmiddag/tidig
-              eftermiddag.
-            </p>
-          </div>
-        </div>
-      </div>
       <div className="w-[90%] mt-8 pb-8 text-neutral">
         <h1 className="text-3xl">Anmälan</h1>
         <p className="text-lg">
@@ -257,7 +256,8 @@ const Courses = () => {
           klatterdomengbg@gmail.com{" "}
         </p>
         <p className="mt-5">
-          Teknikkurs Del 1 & 2 startar när tillräckligt många anmält sig och meddelas i god tid förväg via mejl.
+          Teknikkurs Del 1 & 2 startar när tillräckligt många anmält sig och
+          meddelas i god tid förväg via mejl.
         </p>
       </div>
     </div>

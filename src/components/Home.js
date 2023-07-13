@@ -1,5 +1,3 @@
-import image from '../images/arrow-down.png'
-
 const Home = () => {
   return (
     <div className="home mx-auto bg-base-300 pb-5">
@@ -90,7 +88,6 @@ const Home = () => {
       <h1>
         Vår anläggning
       </h1>
-      <img src={image} alt="Down" className='w-6 mx-auto mt-5'/>
       </div>
       
       <section className="flex flex-col clg:flex-row justify-between mx-auto clg:w-[1220px] my-10">
