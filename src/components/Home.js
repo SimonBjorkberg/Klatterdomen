@@ -15,8 +15,8 @@ const Home = () => {
               Välkommen till Klätterdomen
             </h1>
             <p className="text-lg mx-auto max-w-md">
-              Göteborgs <span className="font-bold text-success">Största</span>{" "}
-              Klättergym. Här kan du prova på för första gången med instruktör,
+              Göteborgs <span className="font-bold text-success">största</span>{" "}
+              klättergym. Här kan du prova på för första gången med instruktör,
               gå <span className="font-bold text-success">säkringskurser</span>{" "}
               och <span className="font-bold text-success">teknikkurser</span>,
               ta en fika i cafét, köpa klätterutrustning och mycket mer!
@@ -32,7 +32,7 @@ const Home = () => {
               <div className="py-6">
                 <p>Mån-tors: 11:00 - 22:00</p>
                 <p>Fre: 11:00 - 21:00</p>
-                <p>Lör-Sön: 11:00 - 19:00</p>
+                <p>Lör & Sön: 11:00 - 19:00</p>
               </div>
               <button
                 className="text-blue-500 hover:underline"
@@ -84,11 +84,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="pb-8 text-4xl font-bold bg-white">
-      <h1>
-        Vår anläggning
-      </h1>
-      </div>
       
       <section className="flex flex-col clg:flex-row justify-between mx-auto clg:w-[1220px] my-10">
         <div className="card bg-base-100 mx-auto mb-10 clg:mb-0 rounded-md shadow-md w-[95%] clg:w-96 max-w-[830px]">
@@ -102,10 +97,9 @@ const Home = () => {
             <h2 className="card-title font-bold text-neutral">Väggar</h2>
             <p className="text-left">
               På Klätterdomen har vi väggar för topprepsklättring, ledklättring
-              och bouldring. Här finns 55 topprep, 9 st Autobelays och en stor
-              ledgrotta på väggar som är mellan 11 - 14.5 meter höga. Vertikalt,
-              Sva, Överhäng, Sprickor, Stalaktiter, Struktur, Drytooling, 2 st
-              Pelare varav ena är en kopia från en utomhusklippa.
+              och bouldering. Här finns 55 topprepsväggar, 9 stycken autobelays och en stor
+              ledgrotta på väggar som är mellan 11 - 14,5 meter höga. Vertikala, överhängande, sprickor, stalaktiter, struktur, drytooling, 2 stycken
+              pelare varav en är en kopia från en utomhusklippa.
             </p>
           </div>
         </div>
@@ -121,8 +115,8 @@ const Home = () => {
               Kaosvägg, Tensionboard & Kilterboard
             </h2>
             <p className="text-left">
-              Kaosväggen är en bouldervägg fullsmackad med grepp. Perfekt för
-              att bygga egna problem och cirklar! Tensionboarden & Kilterboarden
+              Kaosväggen är en bouldervägg fullsmäckad med grepp. Perfekt för
+              att bygga egna problem och cirklar! Tensionboarden och Kilterboarden
               är två ledbelysta träningsväggar, båda är kopplade till varsin app
               med boulderproblem!
             </p>
@@ -138,10 +132,10 @@ const Home = () => {
           <div className="card-body">
             <h2 className="card-title font-bold text-neutral">Gym</h2>
             <p className="text-left">
-              På övervåningen finns våran gymavdelning. Där finns bl.a:
+              På övervåningen finns vår gymavdelning. Där finns bl.a:
               latsmaskin, pullupstång i två olika höjder, campusboard,
               campustege, flera varianter av fingerboards, roddmaskiner, ringar,
-              bänkpress, hantlar, skivstänger, pegboard.
+              bänkpress, hantlar, skivstänger & pegboard.
             </p>
           </div>
         </div>

@@ -11,11 +11,11 @@ const ProvaPa = () => {
         <div className="hero-overlay bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
-              Vill du testa på att <span className="text-success">Klättra</span>
+            <h1 className="mb-5 text-4xl 2xl:text-6xl font-bold ">
+              Vill du testa på att <span className="text-success">klättra</span>
               ?
             </h1>
-            <p>Nedan kan du läsa om vad som passar dig bäst!</p>
+            <p>Nedan kan du läsa om vad som skulle kunna passa dig bäst!</p>
           </div>
         </div>
       </div>
@@ -80,12 +80,15 @@ const ProvaPa = () => {
       </section>
       <section>
         <div className="rounded-md w-[90%] max-w-[350px] mx-auto mt-8 pb-8 text-neutral">
-          <h1 className="text-5xl mb-4">Bokning</h1>
-          <p className="text-xl text-left mb-3">Maila: Klatterdomengbg@gmail.com</p>
+          <h1 className="text-3xl mb-4">Bokning</h1>
           <p className="text-xl text-left">
             Vi behöver: <br /> - Drop-in eller Prova på <br /> - Antal personer{" "}
          <br /> - Gärna fler förslag på datum
           </p>
+          <div className="mt-6">
+          <a href="mailto:klatterdomengbg@gmail.com" className="text-lg py-2 px-3 rounded-md hover:bg-neutral-focus bg-neutral text-white">Maila oss</a>
+            <p className="text-xl mt-2">klatterdomengbg@gmail.com</p>
+          </div>
         </div>
       </section>
     </div>
