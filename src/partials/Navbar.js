@@ -70,10 +70,10 @@ const Navbar = () => {
             </div>
           </div>
           <ul className="menu menu-horizontal px-1 text-[15px] hidden md2:flex md2:flex-row">
-            <li tabIndex={0} className="mr-2">
+            <li className="mr-2">
               <details className="dropdown">
                 <summary>Klättring</summary>
-                <ul tabIndex={0} className="menu z-[1] p-2 bg-base-200 rounded-md">
+                <ul  className="menu z-[1] p-2 bg-base-200 rounded-md">
                   <li className="mb-2">
                     <Link to="/prova-på" onClick={scrollToTop}>Prova på</Link>
                   </li>
