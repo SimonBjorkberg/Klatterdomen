@@ -12,6 +12,7 @@ import ProvaPa from "./components/ProvaPa";
 import Shop from "./components/Shop";
 import { Link } from "react-router-dom";
 import scrollToTop from "./ScrollToTop";
+import Barnkalas from "./components/ChildrensParty";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/kurser" element={<Courses />} />
             <Route path="/prova-på" element={<ProvaPa />} />
             <Route path="/butik" element={<Shop />} />
+            <Route path="/barnkalas" element={<Barnkalas />} />
           </Routes>
         </div>
         <Footer />
@@ -58,8 +60,12 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link to="" className="text-lg mb-1" onClick={scrollToTop}>
-                Barnkalas
+              <Link
+                to="barn&ungdom"
+                className="text-lg mb-1"
+                onClick={scrollToTop}
+              >
+                Barn & Ungdomsgrupper
               </Link>
             </li>
             <li>
@@ -72,17 +78,17 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link
-                to="barn&ungdom"
-                className="text-lg mb-1"
-                onClick={scrollToTop}
-              >
-                Barn & Ungdomsgrupper
+              <Link to="kurser" className="text-lg mb-1" onClick={scrollToTop}>
+                Kurser
               </Link>
             </li>
             <li>
-              <Link to="kurser" className="text-lg mb-1" onClick={scrollToTop}>
-                Kurser
+              <Link
+                to="/barnkalas"
+                className="text-lg mb-1"
+                onClick={scrollToTop}
+              >
+                Barnkalas
               </Link>
             </li>
             <li>

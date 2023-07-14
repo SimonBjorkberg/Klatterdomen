@@ -27,18 +27,22 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-lg w-64 text-left opacity-100"
             >
-              <li>
-                <Link to="" className="text-lg mb-1" onClick={scrollToTop}>
-                  Barnkalas
-                </Link>
-              </li>
-              <li>
+            <li>
                 <Link
                   to="prova-på"
                   className="text-lg mb-1"
                   onClick={scrollToTop}
                 >
                   Prova på
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="kurser"
+                  className="text-lg mb-1"
+                  onClick={scrollToTop}
+                >
+                  Kurser
                 </Link>
               </li>
               <li>
@@ -50,13 +54,10 @@ const Navbar = () => {
                   Barn & Ungdomsgrupper
                 </Link>
               </li>
+              
               <li>
-                <Link
-                  to="kurser"
-                  className="text-lg mb-1"
-                  onClick={scrollToTop}
-                >
-                  Kurser
+                <Link to="/barnkalas" className="text-lg mb-1" onClick={scrollToTop}>
+                  Barnkalas
                 </Link>
               </li>
               <li>
