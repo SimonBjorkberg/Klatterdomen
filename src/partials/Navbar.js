@@ -4,7 +4,7 @@ import scrollToTop from "../ScrollToTop";
 const Navbar = () => {
   return (
     <nav className="fixed mx-auto w-full bg-white z-10 shadow-md opacity-90">
-      <div className="sm:flex hidden navbar bg-base-100">
+      <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost px-3">
