@@ -51,10 +51,10 @@ const YouthGroups = () => {
                     <br /> Sista klättringen för Måndags-gruppen: 4 December{" "}
                     <br /> Sista klättringen för Onsdags-gruppen: 20 December{" "}
                     <br />
-                    <p className="mt-5 text-xl font-bold">
+                  </p>
+                  <p className="mt-5 text-xl font-bold">
                       OBS: Man kan ej ta igen missade tillfällen!
                     </p>
-                  </p>
                 </div>
               </div>
             </div>
@@ -186,12 +186,12 @@ const YouthGroups = () => {
                   en plats. <br />
                   Betalning ska vara oss tillhanda senast 8 september 2023{" "}
                   <br />
-                  <div className="mt-3">
+                </p>
+                <div className="mt-3">
                     Betala in på bankgiro: <br />
                     5864-0228, Klätterdomen <br />
                     Märk med namn på barn/ungdom som är anmäld
                   </div>
-                </p>
 
                 <h1 className="text-xl font-bold mt-3">Priser</h1>
 
