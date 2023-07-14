@@ -14,14 +14,14 @@ const Shop = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content mt-24">
             <div className="max-w-[620px]">
-              <h1 className="mb-5 text-4xl 2xl:text-6xl font-bold text-success">
+              <h1 className="mb-5 text-4xl 2xl:text-6xl text-success">
                 Klätterdomens Butik{" "}
               </h1>
               <p className="mb-5 text-white max-w-[400px] mx-auto">
                 I vår butik inne på Klätterdomen har vi ett stort utbud av{" "}
-                <span className="text-success font-bold">all utrustning</span>{" "}
+                <span className="text-success">all utrustning</span>{" "}
                 man behöver för{" "}
-                <span className="text-success font-bold">
+                <span className="text-success">
                   inomhus & utomhusklättring
                 </span>
               </p>

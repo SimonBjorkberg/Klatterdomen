@@ -11,14 +11,14 @@ const Home = () => {
         <div className="hero-overlay bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div>
-            <h1 className="mb-5 text-4xl 2xl:text-7xl font-bold text-success">
+            <h1 className="mb-5 text-4xl 2xl:text-7xl text-success">
               Välkommen till Klätterdomen
             </h1>
             <p className="text-lg mx-auto max-w-md">
-              Göteborgs <span className="font-bold text-success">största</span>{" "}
+              Göteborgs <span className="text-success">största</span>{" "}
               klättergym. Här kan du prova på för första gången med instruktör,
-              gå <span className="font-bold text-success">säkringskurser</span>{" "}
-              och <span className="font-bold text-success">teknikkurser</span>,
+              gå <span className="text-success">säkringskurser</span>{" "}
+              och <span className="text-success">teknikkurser</span>,
               ta en fika i cafét, köpa klätterutrustning och mycket mer!
             </p>
           </div>

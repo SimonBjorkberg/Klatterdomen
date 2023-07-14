@@ -122,7 +122,7 @@ const Courses = () => {
         </div>
       </div>
       <h1 className="mt-12 text-3xl w-[90%] max-w-[700px]">
-        Teknikkurs med Axel Hultqvist
+        Teknikkurser med Axel Hultqvist
       </h1>
       <img src={arrowDown} alt="Down" className="w-6 mt-3 mb-8" />
       <div className="collapse collapse-arrow bg-base-300 rounded-md w-[90%] max-w-[700px] mx-auto mt-2 shadow-md">
