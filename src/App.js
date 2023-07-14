@@ -34,13 +34,13 @@ function App() {
         </div>
         <Footer />
         <div className="dropdown dropdown-top dropdown-end fixed sm:hidden right-0 bottom-0 mr-5 mb-5 z-20">
-          <label tabIndex={0} className="btn m-1 bg-neutral border-none">
+          <label tabIndex={0} className="btn m-1 bg-success border-neutral">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="white"
+              stroke="black"
             >
               <path
                 strokeLinecap="round"

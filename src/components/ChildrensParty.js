@@ -13,7 +13,6 @@ const Barnkalas = () => {
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl text-neutral">
               Barnkalas på Klätterdomen
-              <hr className="bg-red-200 py-[0.5px] mx-16 border-none" />
             </h1>
             <div>
               <p className="text-left text-neutral">
