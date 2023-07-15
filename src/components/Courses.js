@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
-    <div className="courses min-h-screen bg-base-300 flex justify-center items-center flex-col">
+    <div className="courses min-h-screen bg-[#fbf5f6] flex justify-center items-center flex-col">
       <h1 className="text-3xl w-[90%] max-w-[700px] mt-32">
         Kurs-information för dig som vill börja klättra & säkra på repväggarna
       </h1>

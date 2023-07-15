@@ -9,7 +9,7 @@ const Barnkalas = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-40"></div>
-        <div className="hero-content text-center bg-base-200 rounded-sm mt-32 mb-10 p-10">
+        <div className="hero-content text-center bg-[#fbf5f6] rounded-sm mt-32 mb-10 p-10">
           <div className="max-w-md">
             <h1 className="mb-5 text-4xl text-neutral">
               Barnkalas på Klätterdomen

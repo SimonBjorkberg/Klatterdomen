@@ -2,7 +2,7 @@ import acti from "../images/acti.png";
 
 const Shop = () => {
   return (
-    <div className="shop min-h-screen bg-base-300">
+    <div className="shop min-h-screen bg-[#fbf5f6]">
       <section>
         <div
           className="hero min-h-[60vh]"

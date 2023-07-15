@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="contact min-h-screen bg-base-200">
+    <div className="contact min-h-screen bg-[#fbf5f6]">
       <div className="hero pt-32">
         <div className="hero-content text-center">
           <div>

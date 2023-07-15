@@ -1,6 +1,6 @@
 const ProvaPa = () => {
   return (
-    <div className="prova-pa min-h-screen bg-base-300">
+    <div className="prova-pa min-h-screen bg-[#fbf5f6]">
       <div
         className="hero min-h-[60vh]"
         style={{

@@ -2,7 +2,7 @@ import scrollToTop from '../ScrollToTop'
 
 const About = () => {
   return (
-    <div className="about bg-base-300 min-h-screen">
+    <div className="about bg-[#fbf5f6] min-h-screen">
       <div className="hero pt-32">
         <div className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-center text-neutral-content w-[98%] max-w-[700px] flex flex-col">

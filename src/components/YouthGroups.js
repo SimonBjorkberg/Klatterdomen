@@ -3,7 +3,7 @@ import scrollToTop from "../ScrollToTop";
 
 const YouthGroups = () => {
   return (
-    <div className="bg-base-200 min-h-screen pb-5">
+    <div className="bg-[#fbf5f6] min-h-screen pb-5">
       <div className="youth-groups pt-[80px] w-[90%] md2:w-[800px] mx-auto">
         <div className="mt-16">
           <h1 className="mb-5 text-4xl 2xl:text-6xl font-bold ">Barn & Ungdomsgrupper</h1>
