@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="contact min-h-screen bg-base-200">
-      <div className="hero pt-24">
+      <div className="hero pt-32">
         <div className="hero-content text-center">
           <div>
             <h1 className="text-5xl">Kontakt</h1>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className="text-left mx-auto mt-4 bg-white p-4 rounded-lg">
+            <div className="text-left mx-auto mt-4 bg-white p-4 rounded-lg mb-8">
               <h1 className="text-xl text-center font-bold">Med bil</h1>
               <div className="text-left mt-2">
                 <p>
@@ -44,7 +44,8 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <h1 className="text-2xl mt-4">klatterdomengbg@gmail.com</h1>
+            <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
+            <p className="text-xl mt-5">klatterdomengbg@gmail.com</p>
           </div>
         </div>
       </div>

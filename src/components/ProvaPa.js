@@ -86,8 +86,8 @@ const ProvaPa = () => {
          <br /> - Gärna fler förslag på datum
           </p>
           <div className="mt-6">
-          <a href="mailto:klatterdomengbg@gmail.com" className="text-lg py-2 px-3 rounded-md hover:bg-neutral-focus bg-neutral text-white">Maila oss</a>
-            <p className="text-xl mt-2">klatterdomengbg@gmail.com</p>
+          <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
+            <p className="text-xl mt-5">klatterdomengbg@gmail.com</p>
           </div>
         </div>
       </section>

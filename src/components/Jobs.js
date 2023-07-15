@@ -2,7 +2,7 @@ const Jobs = () => {
 
   return (
     <div className="jobs">
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-[#ffebee] min-h-screen">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Personal sökes</h1>

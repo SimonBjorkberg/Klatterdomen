@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import scrollToTop from "../ScrollToTop";
 
 const YouthGroups = () => {
   return (
@@ -64,7 +65,7 @@ const YouthGroups = () => {
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label htmlFor="collapse-toggle" className="cursor-pointer">
-                <p className="text-xl">Barnklättring Lördag & Söndag</p>
+                <p className="text-xl">Barnklättring Lör & Sön</p>
               </label>
             </div>
             <div className="collapse-content bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white">
@@ -119,7 +120,7 @@ const YouthGroups = () => {
             <input type="checkbox" className="peer" id="collapse-toggle" />
             <div className="collapse-title bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white text-left">
               <label htmlFor="collapse-toggle" className="cursor-pointer">
-                <p className="text-xl">Måndag & Onsdags grupper</p>
+                <p className="text-xl">Ungdomsgrupper Mån & Ons</p>
               </label>
             </div>
             <div className="collapse-content bg-neutral text-white peer-checked:text-neutral peer-checked:bg-white">
@@ -226,7 +227,7 @@ const YouthGroups = () => {
                 </p>
                 <p className="mt-3">
                   Mer info ang. kurser kan du hitta{" "}
-                  <Link to="/kurser" className="text-blue-600">
+                  <Link to="/kurser" className="text-blue-600" onClick={scrollToTop}>
                     Här
                   </Link>
                 </p>

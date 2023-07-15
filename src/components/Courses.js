@@ -250,15 +250,16 @@ const Courses = () => {
         </div>
       </div>
       <div className="w-[90%] mt-8 pb-8 text-neutral">
-        <h1 className="text-3xl">Anmälan</h1>
-        <p className="text-lg">
-          Anmälan till samtliga kurser görs via <br />
-          klatterdomengbg@gmail.com{" "}
-        </p>
-        <p className="mt-5">
+      <p>
           Teknikkurs Del 1 & 2 startar när tillräckligt många anmält sig och
           meddelas i god tid förväg via mejl.
         </p>
+        <h1 className="text-3xl mt-5">Anmälan</h1>
+        <p className="text-lg mb-6">
+          Anmälan till samtliga kurser görs via <br />
+          klatterdomengbg@gmail.com{" "} <br />
+        </p>
+        <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
       </div>
     </div>
   );

@@ -159,6 +159,14 @@ $main-color: #1c85a5;
   }
 }
 
+.data-container{
+  background:#ffebee;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 .mail-btn{
   cursor:pointer;
     position:relative;
