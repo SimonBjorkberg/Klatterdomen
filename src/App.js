@@ -10,8 +10,6 @@ import YouthGroups from "./components/YouthGroups";
 import Courses from "./components/Courses";
 import ProvaPa from "./components/ProvaPa";
 import Shop from "./components/Shop";
-import { Link } from "react-router-dom";
-import scrollToTop from "./ScrollToTop";
 import Barnkalas from "./components/ChildrensParty";
 
 function App() {
