@@ -1,4 +1,4 @@
-import scrollToTop from '../ScrollToTop'
+import scrollToTop from "../ScrollToTop";
 
 const About = () => {
   return (
@@ -11,9 +11,84 @@ const About = () => {
           </div>
           <div className="w-full">
             <div
-            onClick={scrollToTop}
+              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md"
+            >
+              <div className="collapse-title text-xl text-left">
+                Vanliga frågor
+              </div>
+              <div className="collapse-content text-left">
+                <h1 className="text-xl">
+                  Kan man hyra utrustning för utomhusbruk hos er?
+                </h1>
+                <p>- Nej, det kan man inte.</p>
+                <h1 className="text-xl mt-5">
+                  Kan man köpa presentkort hos er?{" "}
+                </h1>
+                <p>
+                  - Man kan köpa presentkort hos oss i kassan. Vi skickar inte
+                  presentkort med posten utan man får komma in till oss.
+                  Presentkorten gäller i 2 år.
+                </p>
+                <h1 className="text-xl mt-5">
+                  Kan man köpa klätterutrustning hos er?
+                </h1>
+                <p>
+                  {" "}
+                  Ja, vi har en butik där vi säljer all utrustning som man
+                  behöver för inomhus- och utomhusklättring.
+                </p>
+                <h1 className="text-xl mt-5">Får man ta med sig hunden?</h1>
+                <p>
+                  Nej, det är endast vi som får ta med hundar till Klätterdomen
+                </p>
+                <h1 className="text-xl mt-5">Finns dusch?</h1>
+                <p>Ja, vi har 2 duschar i vardera omklädningsrum.</p>
+                <h1 className="text-xl mt-5">Vad är Topprepskort? </h1>
+                <p>
+                  Topprepskort är den licens som krävs för att få topprepssäkra
+                  på inomhusgym i Sverige.{" "}
+                </p>
+                <h1 className="text-xl mt-5">Vad är topprep och led?</h1>
+                <p>
+                  Topprep betyder att repet redan är uppsatt på väggen. Höga
+                  väggar där det hänger upsatta rep, dessa kallas för topprep.
+                  För att säkra på dessa krävs Topprepskort.
+                </p>
+                <p className="mt-3">
+                  Sen finns det höga väggar hos oss där det inte sitter rep
+                  uppsatt, på dessa väggar ska man fästa upp repet på egen hand,
+                  det kallas för ledklättring. För att kunna säkra och klättra
+                  på led behöver man inneha Ledkort. För att ta ledkort går man
+                  en ledkurs.
+                </p>
+                <h1 className="text-xl mt-5">Vad är bouldering?</h1>
+                <p>
+                  Bouldring är klättring på lägre väggar, vanligtvis 4-5 meter
+                  höga, och man har en tjockmatta under som fallskydd. Bouldring
+                  är en egen disciplin inom klättring som är lite mer
+                  styrkebaserat och explosivare än repklättring. Vill man testa
+                  bouldring kan man kan komma hit under våra öppettider, betala
+                  entré och hyra klätterskor. Personal ger dig en regel- och
+                  säkerhetsgenomgång.
+                </p>
+                <h1 className="text-xl mt-5">
+                  Vad är autobelay och vad krävs för att få klättra på dem?
+                </h1>
+                <p>
+                  Autobelay är en maskin som säkrar. Vid topprepsklättring
+                  behöver man normalt vara 2 st, en som säkrar och en som
+                  klättrar, men en autobelay gör att man kan klättra själv på
+                  topprepsväggarna. För använda sig av autobelay krävs
+                  Topprepskort. På Klätterdomen har vi 9 väggar med autobelay.
+                </p>
+              </div>
+            </div>
+            <div
+              onClick={scrollToTop}
+              tabIndex={0}
+              className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
               <div className="collapse-title text-xl text-left">Regler</div>
               <div className="collapse-content">
@@ -100,7 +175,7 @@ const About = () => {
               </div>
             </div>
             <div
-            onClick={scrollToTop}
+              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -180,7 +255,7 @@ const About = () => {
             </div>
 
             <div
-            onClick={scrollToTop}
+              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -293,7 +368,7 @@ const About = () => {
               </div>
             </div>
             <div
-            onClick={scrollToTop}
+              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -415,9 +490,18 @@ const About = () => {
             </div>
           </div>
           <div className="rounded-md w-[98%] max-w-[700px] mx-auto shadow-md bg-white py-5">
-            <h1 className="text-xl text-neutral mb-16">Om du har andra frågor så ber vi dig kontakta oss</h1>
-            <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl text-neutral">Maila oss</a>
-            <p className="text-xl text-neutral mt-5">klatterdomengbg@gmail.com</p>
+            <h1 className="text-xl text-neutral mb-16">
+              Om du har andra frågor så ber vi dig kontakta oss
+            </h1>
+            <a
+              href="mailto:klatterdomengbg@gmail.com"
+              className="mail-btn text-xl text-neutral"
+            >
+              Maila oss
+            </a>
+            <p className="text-xl text-neutral mt-5">
+              klatterdomengbg@gmail.com
+            </p>
           </div>
         </div>
       </div>
