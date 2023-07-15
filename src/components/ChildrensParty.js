@@ -29,10 +29,16 @@ const Barnkalas = () => {
               <p className="text-left">
                 - Inte klänning eller kjol (detta är för att de ska ha sele på
                 sig) <br /> - Medtag av ballonger är inte tillåtet. <br />{" "}
-                Levande ljus får inte användas.
+                - Levande ljus får inte användas.
                 <br /> - Presentpapper och dylikt ska tas med hem och inte
                 slängas hos oss.
               </p>
+            </div>
+            <div className="mt-5">
+                <h1 className="text-2xl">Bokning</h1>
+                <p>
+                    
+                </p>
             </div>
           </div>
         </div>
