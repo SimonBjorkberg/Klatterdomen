@@ -35,7 +35,7 @@ const Home = () => {
                 <p>Lör & Sön: 11:00 - 19:00</p>
               </div>
               <button
-                className="text-blue-500 hover:underline"
+                className="custom-links"
                 onClick={() => window.oppettider.showModal()}
               >
                 Avvikande öppettider

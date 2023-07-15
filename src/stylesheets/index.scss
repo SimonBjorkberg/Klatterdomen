@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-ul {
+  display: flex;
+  li {
+    list-style: none;
+    a {
+      position: relative;
+      display: block;
+      margin: 20px 0;
+      padding: 6px 20px 3px 20px;
+      text-decoration: none;
+      color: #262626;
+      font-weight: 500;
+      transition: 0.5s;
+      z-index: 1;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid #262626;
+        border-bottom: 2px solid #262626;
+        transform: scaleY(2);
+        opacity: 0;
+        transition: 0.3s;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        transform: scale(0);
+        opacity: 0;
+        transition: 0.3s;
+        z-index: -1;
+      }
+      &:hover {
+        color: #fff;
+        &:before {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+        &:after {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+$main-color: #1c85a5;
+
+.custom-links {
+  text-decoration: none;
+  padding: 5px 0;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    $main-color,
+    $main-color 50%,
+    #09b1f4 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+  &:before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    bottom: -3px;
+    z-index: 0;
+    position: absolute;
+    background: $main-color;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover {
+    background-position: 0%;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+
+#prova-pa-custom-a {
+  &:before {
+    border-top: 2px solid #ca870c;
+    border-bottom: 2px solid #ca870c;
+  }
+  &:after {
+    background-color: #ca870c;
+  }
+}
+#kurser-custom-a {
+  &:before {
+    border-top: 2px solid #cc5207;
+    border-bottom: 2px solid #cc5207;
+  }
+  &:after {
+    background-color: #cc5207;
+  }
+}
+#barnungd-custom-a {
+  &:before {
+    border-top: 2px solid #01afc6;
+    border-bottom: 2px solid #01afc6;
+  }
+  &:after {
+    background-color: #01afc6;
+  }
+}
+#barnkalas-custom-a {
+  &:before {
+    border-top: 2px solid #aa10e2;
+    border-bottom: 2px solid #aa10e2;
+  }
+  &:after {
+    background-color: #aa10e2;
+  }
+}
+#priser-custom-a {
+  &:before {
+    border-top: 2px solid #06c847;
+    border-bottom: 2px solid #06c847;
+  }
+  &:after {
+    background-color: #06c847;
+  }
+}
+

@@ -1,4 +1,4 @@
-import "./stylesheets/App.css";
+import "./stylesheets/App.scss";
 import Navbar from "./partials/Navbar";
 import Home from "./components/Home";
 import Footer from "./partials/Footer";
