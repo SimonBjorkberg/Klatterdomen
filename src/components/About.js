@@ -7,7 +7,7 @@ const About = () => {
         <div className="hero-overlay bg-opacity-0"></div>
         <div className="hero-content text-center text-neutral-content w-[98%] max-w-[700px] flex flex-col">
           <div>
-            <h1 className="text-neutral text-4xl">FAQ</h1>
+            <h1 className="text-neutral text-4xl mb-7">FAQ</h1>
           </div>
           <div className="w-full">
             <div
@@ -490,7 +490,7 @@ const About = () => {
             </div>
           </div>
           <div className="rounded-md w-[98%] max-w-[700px] mx-auto shadow-md bg-white py-5">
-            <h1 className="text-xl text-neutral mb-16">
+            <h1 className="text-xl text-neutral mb-8">
               Om du har andra frågor så ber vi dig kontakta oss
             </h1>
             <a

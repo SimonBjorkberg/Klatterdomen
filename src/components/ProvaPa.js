@@ -79,15 +79,15 @@ const ProvaPa = () => {
         </div>
       </section>
       <section>
-        <div className="rounded-md w-[90%] max-w-[350px] mx-auto mt-8 pb-8 text-neutral">
+        <div className="rounded-md w-[90%] max-w-[350px] mx-auto mt-8 pb-5 text-neutral">
           <h1 className="text-3xl mb-4">Bokning</h1>
           <p className="text-xl text-left">
             Vi behöver: <br /> - Drop-in eller Prova på <br /> - Antal personer{" "}
          <br /> - Gärna fler förslag på datum
           </p>
           <div className="mt-6">
-          <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
-            <p className="text-xl mt-5">klatterdomengbg@gmail.com</p>
+            <p className="text-xl mb-5">klatterdomengbg@gmail.com</p>
+            <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
           </div>
         </div>
       </section>
