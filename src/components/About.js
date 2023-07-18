@@ -11,7 +11,6 @@ const About = () => {
           </div>
           <div className="w-full">
             <div
-              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md"
             >
@@ -86,7 +85,6 @@ const About = () => {
               </div>
             </div>
             <div
-              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -175,7 +173,6 @@ const About = () => {
               </div>
             </div>
             <div
-              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -255,7 +252,6 @@ const About = () => {
             </div>
 
             <div
-              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >
@@ -368,7 +364,6 @@ const About = () => {
               </div>
             </div>
             <div
-              onClick={scrollToTop}
               tabIndex={0}
               className="collapse bg-neutral text-white focus:bg-white focus:text-neutral rounded-md w-[98%] max-w-[700px] mx-auto shadow-md mt-2"
             >

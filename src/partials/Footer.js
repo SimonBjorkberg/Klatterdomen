@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer footer-center p-5 text-base-content rounded mt-auto">
       <div className="grid grid-flow-col gap-4">
         <Link to="/om-oss" className="custom-links" onClick={scrollToTop}>
-          Faq
+          FAQ
         </Link>
         <Link to="/kontakt" className="custom-links" onClick={scrollToTop}>
           Kontakt
