@@ -1,5 +1,3 @@
-import scrollToTop from "../ScrollToTop";
-
 const About = () => {
   return (
     <div className="about bg-[#fbf5f6] min-h-screen">
