@@ -34,7 +34,7 @@ const Barnkalas = () => {
                 slängas hos oss.
               </p>
             </div>
-            <div className="my-7">
+            <div className="my-5">
               <h1 className="text-2xl">Bokning</h1>
               <h1 className="text-xl text-left">Vi behöver veta:</h1>
               <p className="text-left">
@@ -43,13 +43,13 @@ const Barnkalas = () => {
                 på datum
               </p>
             </div>
-            <a
+              <p className="text-xl my-5">klatterdomengbg@gmail.com</p>
+              <a
                 href="mailto:klatterdomengbg@gmail.com"
                 className="mail-btn text-xl"
               >
                 Maila oss
               </a>
-              <p className="text-xl mt-5">klatterdomengbg@gmail.com</p>
           </div>
         </div>
       </div>

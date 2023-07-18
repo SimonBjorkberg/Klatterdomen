@@ -249,7 +249,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-      <div className="w-[90%] mt-8 pb-5 text-neutral">
+      <div className="w-[90%] mt-8 pb-8 text-neutral">
       <p>
           Teknikkurs Del 1 & 2 startar när tillräckligt många anmält sig och
           meddelas i god tid förväg via mejl.

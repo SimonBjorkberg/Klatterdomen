@@ -482,19 +482,17 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md w-[98%] max-w-[700px] mx-auto shadow-md bg-white py-5">
-            <h1 className="text-xl text-neutral mb-8">
+          <div className="rounded-md w-[98%] max-w-[700px] mx-auto shadow-md bg-white pt-6 pb-10">
+            <h1 className="text-xl text-neutral">
               Om du har andra frågor så ber vi dig kontakta oss
             </h1>
-            <a
-              href="mailto:klatterdomengbg@gmail.com"
-              className="mail-btn text-xl text-neutral"
-            >
-              Maila oss
-            </a>
-            <p className="text-xl text-neutral mt-5">
-              klatterdomengbg@gmail.com
-            </p>
+            <p className="text-xl my-5 text-neutral">klatterdomengbg@gmail.com</p>
+              <a
+                href="mailto:klatterdomengbg@gmail.com"
+                className="mail-btn text-xl text-neutral"
+              >
+                Maila oss
+              </a>
           </div>
         </div>
       </div>

@@ -44,8 +44,13 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <a href="mailto:klatterdomengbg@gmail.com" className="mail-btn text-xl">Maila oss</a>
-            <p className="text-xl mt-5">klatterdomengbg@gmail.com</p>
+            <p className="text-xl mb-5">klatterdomengbg@gmail.com</p>
+              <a
+                href="mailto:klatterdomengbg@gmail.com"
+                className="mail-btn text-xl"
+              >
+                Maila oss
+              </a>
           </div>
         </div>
       </div>
