@@ -1,16 +1,16 @@
 import "./stylesheets/App.scss";
-import Navbar from "./partials/Navbar";
-import Home from "./components/Home";
-import Footer from "./partials/Footer";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Jobs from "./components/Jobs";
+import Navbar from "./components/partials/Navbar";
+import Home from "./components/pages/Home";
+import Footer from "./components/partials/Footer";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
+import Jobs from "./components/pages/Jobs";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import YouthGroups from "./components/YouthGroups";
-import Courses from "./components/Courses";
-import ProvaPa from "./components/ProvaPa";
-import Shop from "./components/Shop";
-import Barnkalas from "./components/ChildrensParty";
+import YouthGroups from "./components/pages/YouthGroups";
+import Courses from "./components/pages/Courses";
+import ProvaPa from "./components/pages/ProvaPa";
+import Shop from "./components/pages/Shop";
+import Barnkalas from "./components/pages/ChildrensParty";
 
 function App() {
   return (

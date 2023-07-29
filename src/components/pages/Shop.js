@@ -1,4 +1,4 @@
-import acti from "../images/acti.png";
+import acti from "../../images/acti.png";
 
 const Shop = () => {
   return (

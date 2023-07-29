@@ -1,4 +1,4 @@
-import arrowDown from "../images/arrow-down.png";
+import arrowDown from "../../images/arrow-down.png";
 import { Link } from "react-router-dom";
 
 const Courses = () => {

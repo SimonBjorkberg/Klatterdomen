@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import scrollToTop from "../ScrollToTop";
+import scrollToTop from "../../ScrollToTop";
 
 const Navbar = () => {
   return (
