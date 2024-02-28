@@ -3,7 +3,7 @@ import shopImage from '../../images/shopImage.jpg'
 
 const Shop = () => {
   return (
-    <div className="shop min-h-screen bg-[#fbf5f6]">
+    <div className="shop min-h-screen bg-neutral-100">
       <section>
         <div
           className="hero min-h-[60vh]"

@@ -2,7 +2,7 @@ import backgroundImage from '../../images/backgroundImage.jpg'
 
 const Home = () => {
   return (
-    <div className="home mx-auto bg-neutral-200 pb-5">
+    <div className="home mx-auto bg-neutral-100 pb-5">
       <div
         className="hero min-h-screen"
         style={{
