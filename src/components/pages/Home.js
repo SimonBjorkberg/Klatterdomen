@@ -1,11 +1,13 @@
+import backgroundImage from '../../images/backgroundImage.jpg'
+
 const Home = () => {
   return (
-    <div className="home mx-auto bg-[#fbf5f6] pb-5">
+    <div className="home mx-auto bg-neutral-200 pb-5">
       <div
         className="hero min-h-screen"
         style={{
           backgroundImage:
-            "url(https://cdn.discordapp.com/attachments/798984082217500685/1212397848239542332/image.png?ex=65f1b07c&is=65df3b7c&hm=517926526b66a59f6bfc86ec1eba284d3b84ed0a0071334e967dcdce86e09fc9&)",
+            `url(${backgroundImage})`,
         }}
       >
         <div className="hero-overlay bg-opacity-80"></div>

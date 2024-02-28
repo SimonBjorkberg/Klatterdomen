@@ -1,4 +1,5 @@
 import acti from "../../images/acti.png";
+import shopImage from '../../images/shopImage.jpg'
 
 const Shop = () => {
   return (
@@ -8,7 +9,7 @@ const Shop = () => {
           className="hero min-h-[60vh]"
           style={{
             backgroundImage:
-              "url(https://cdn.discordapp.com/attachments/798984082217500685/1128435219821768814/IMG_3093.jpg)",
+              `url(${shopImage})`,
           }}
         >
           <div className="hero-overlay bg-opacity-60"></div>
