@@ -3,7 +3,7 @@ import scrollToTop from "../../ScrollToTop";
 
 const Navbar = () => {
   return (
-    <nav className="fixed mx-auto w-full bg-white z-10 shadow-md opacity-90">
+    <nav className="fixed mx-auto w-full z-10 shadow-md opacity-90">
       <div className="navbar bg-base-100 justify-between">
         <div className="items-start">
           <Link to="/" onClick={scrollToTop}>
